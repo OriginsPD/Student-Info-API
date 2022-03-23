@@ -4,10 +4,10 @@ namespace App\Http\Livewire\Home;
 
 use Livewire\Component;
 
-class Index extends Component
+class ProductList extends Component
 {
     public function render()
     {
-        return view('livewire.home.index');
+        return view('livewire.home.product-list');
     }
 }
